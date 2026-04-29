@@ -1,0 +1,7 @@
+boto3
+requests
+
+ibmcloud ce job create --name orquestador-docling --build-source . \
+  --env COS_API_KEY=Mbx8FHlFMYBQ4tL1GvFO8Xmiyf3zAKVL1-QfMEgW5QyV \
+  --env COS_INSTANCE_ID=crn:v1:bluemix:public:cloud-object-storage:global:a/98ff78eb326f477f8447f94142661697:55951835-862f-4811-b384-be2f0788d25b:: \
+  --env DOCLING_URL=https://docling-api.1f0pijem0gjl.us-south.codeengine.appdomain.cloud
