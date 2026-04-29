@@ -7,7 +7,7 @@ COS_ENDPOINT = "https://s3.private.us-east.cloud-object-storage.appdomain.cloud"
 COS_API_KEY = os.getenv("COS_API_KEY")
 COS_INSTANCE_ID = os.getenv("COS_INSTANCE_ID")
 BUCKET_IN = "1-raw-docs"
-BUCKET_MID = "2-mid-docs"
+BUCKET_MID = "2-markdowns"
 DOCLING_URL = os.getenv("DOCLING_URL") # Tu URL de Code Engine
 
 # 2. CLIENTE ICOS
